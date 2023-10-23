@@ -423,7 +423,7 @@ h6 {
 
 #hero .container {
   position: relative;
-  padding-top: 74px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -447,18 +447,16 @@ h6 {
 }
 
 #hero .icon-box {
-  padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
+  color: #fff;
+  text-align: left;
 }
 
-#hero .icon-box i {
+/*#hero .icon-box i {
   font-size: 32px;
   line-height: 1;
-  color: #ffc451;
-}
+  color: #fff;
+}*/
 
 #hero .icon-box h3 {
   font-weight: 700;
@@ -642,11 +640,12 @@ section {
   margin-left: 60px;
 }
 
-.features .image {
+#hero .image {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 400px;
+  border-radius: 30px;
 }
 
 /*--------------------------------------------------------------
